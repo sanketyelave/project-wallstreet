@@ -37,11 +37,11 @@ function Event() {
   }, []);
 
   return (
-    <section id="Events" className="pb-16" className="bg-black">
+    <section id="Events" className="pb-16">
       <div className="container mx-auto px-4">
         <h2 className="text-white text-6xl flex justify-center p-10 font-semibold ">
           Events
-        </h2>
+        </h2>{" "}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 h-full gap-8 mx-10">
           {events.map((event, index) => (
