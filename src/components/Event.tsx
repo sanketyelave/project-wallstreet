@@ -59,11 +59,13 @@ function Event() {
                 />
 
                 <div className="coverpage h-full group-hover:mt-20 max-sm:group-hover:ml-[7%] max-lg:group-hover:-ml-[20%] xl:group-hover:-ml-44 flex flex-row justify-center items-center gap-5">
-                  <h3
-                    className="text-white font-bold transition-transform duration-500 ease-in-out group-hover:text-[#0064E0] text-3xl"
-                  >
-                    {event.title}
-                  </h3>
+                 <h3
+  className="text-white font-bold transition-transform duration-500 ease-in-out group-hover:text-[#0064E0] text-3xl
+  group-hover:self-start pt-0 self-center transform group-hover:translate-x-[-0.5rem] group-hover:translate-y-[-2rem]"
+>
+  {event.title}
+</h3>
+
                   <button className="transition-transform duration-300 ease-in-out animate-horizontal-bounce group-hover:hidden">
                     <Image
                       src="/Hero_Assests/guidance_up-arrow-removebg-preview.png"
